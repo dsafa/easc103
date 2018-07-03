@@ -1,32 +1,80 @@
-var nodes = new vis.DataSet([
-    {id: 1, label: 'Node 1'},
-    {id: 2, label: 'Node 2'},
-    {id: 3, label: 'Node 3'},
-    {id: 4, label: 'Node 4'},
-    {id: 5, label: 'Node 5'}
-]);
+let nodes = new vis.DataSet()
+let edges = new vis.DataSet()
+let levels = [];
 
-// create an array with edges
-var edges = new vis.DataSet([
-    {from: 1, to: 3},
-    {from: 1, to: 2},
-    {from: 2, to: 4},
-    {from: 2, to: 5}
-]);
+for (let x of theropodPhylogeny) {
+    nodes.add({
+        id: x.id,
+        label: x.clade,
+        features: x.features,
+    });
 
-// create a network
-var container = document.getElementById('mynetwork');
+    if (x.parent) {
+        edges.add({
+            from: x.parent,
+            to: x.id,
+        })
+    }
 
-// provide the data in the vis format
-var data = {
+    levels.push(x.parent);
+}
+
+let container = document.getElementById('container');
+
+let data = {
     nodes: nodes,
     edges: edges
 };
 
-var options = {
+let physics = {
+    enabled: false
+}
+
+let interaction = {
+    dragNodes: false,
+    hover: true
+}
+
+let layout = {
+    randomSeed: 1,
+    hierarchical: {
+        enabled: true,
+        levelSeparation: 50,
+        nodeSpacing: 300,
+        blockShifting: true,
+        edgeMinimization: true,
+        parentCentralization: false,
+        direction: 'DU',
+        sortMethod: 'directed'
+      }
+}
+
+let nodeoptions = {
+    size: 5,
+    color: {
+        border: "black",
+        background: "black",
+    },
+    shape: "dot",
+    font: {
+        size: 20,
+        vadjust: -60
+    }
+}
+
+let options = {
     autoResize: true,
-    
+    physics: physics,
+    interaction: interaction,
+    nodes: nodeoptions,
+    layout: layout
 };
 
-// initialize your network!
-var network = new vis.Network(container, data, options);
+let network = new vis.Network(container, data, options);
+network.on("click", e => {
+    if (e.nodes.length === 0) {
+        return;
+    }
+
+    console.log(nodes.get(e.nodes[0]));
+});
