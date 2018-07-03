@@ -1,0 +1,80 @@
+{
+    "theropods": [
+        {
+            "dinosaur": "Dilophosaurus (two-crested lizard)",
+            "classification": "Early Theorpod",
+            "location": "North America",
+            "age": "Early Jurassic, 193 Ma",
+            "notes": [
+                "First large theropod to be an apex predator"
+            ]
+        },
+        {
+            "dinosaur": "Ceratosaurus (horned lizard)",
+            "classification": "Ceratosaur",
+            "location": "North America, Portugal",
+            "age": "Late Jurassic, 150 Ma",
+            "notes": [
+                "Elongate nasal horn",
+                "Pair of hornlets over the eyes",
+                "Small row of osteoderms along its back"
+            ]
+        },
+        {
+            "dinosaur": "Carnotaurus (meat-eating bull)",
+            "classification": "Abelisaur",
+            "location": "South America",
+            "age": "Late Cretaceous, 72 Ma",
+            "notes": [
+                "Bull-like horns",
+                "Known from one well-preserved skeleton from Argentina"
+            ]
+        },
+        {
+            "dinosaur": "Megalosaurus (great lizard)",
+            "classification": "Megalosaur",
+            "location": "England",
+            "age": "Middle Jurassic, 166 Ma",
+            "notes": [
+                "First giant reptile discovered and named"
+            ]
+        },
+        {
+            "dinosaur": "Spinosaurus (spine lizard)",
+            "classification": "Spinosaur",
+            "location": "North Africa",
+            "age": "Late Cretaceous, 95 Ma",
+            "notes": [
+                "Largest spinosaur and theropod (up to 17m in length)",
+                "Originally discovered in Egypt in the 1900s and fossil destroyed in World War 2 bombings"
+            ]
+        },
+        {
+            "dinosaur": "Baryonyx (heavy claw)",
+            "classification": "Spinosaur",
+            "location": "England",
+            "age": "Early Cretaceous, 130 Ma",
+            "notes": [
+                "First fish eating dinosaur discovered with fish scale in stomach",
+                "Long straight neck",
+                "Spoon shaped snout"
+            ]
+        },
+        {
+            "dinosaur": "Suchomimus (crocodile mimic)",
+            "classification": "Spinosaur",
+            "location": "Africa",
+            "age": "",
+            "notes": [
+            ]
+        },
+    ]
+}
+        {
+            "dinosaur": "",
+            "classification": "",
+            "location": "",
+            "age": "",
+            "notes": [
+            ]
+        },
