@@ -7,6 +7,7 @@ for (let x of theropodPhylogeny) {
         id: x.id,
         label: x.clade,
         features: x.features,
+        dinosaurs: x.dinosaurs
     });
 
     if (x.parent) {
@@ -71,10 +72,51 @@ let options = {
 };
 
 let network = new vis.Network(container, data, options);
+
 network.on("click", e => {
     if (e.nodes.length === 0) {
         return;
     }
 
-    console.log(nodes.get(e.nodes[0]));
+    node = nodes.get(e.nodes[0]);
+
+    clade.textContent = node.label;
+
+    if (node.features) {
+        featuresElem.textContent = "Features";
+        writeList(featuresListElem, node.features);
+    } else {
+        featuresElem.textContent = "";
+        writeList(featuresListElem, [])
+    }
+
+    if (node.dinosaurs) {
+        dinosaurElem.textContent = "Dinosaurs";
+        writeList(dinosaurListElem, node.dinosaurs);
+    } else {
+        dinosaurElem.textContent = "";
+        writeList(dinosaurListElem, []);
+    }
 });
+
+const featuresElem = document.getElementById("features");
+const featuresListElem = document.getElementById("features-list");
+const dinosaurElem = document.getElementById("dinosaurs");
+const dinosaurListElem = document.getElementById("dinosaurs-list");
+const cladeElem = document.getElementById("clade");
+
+function writeList(elem, items) {
+    console.log(items)
+    while (elem.firstChild) {
+        elem.firstChild.remove();
+    }
+
+    for (let item of items) {
+        var li = document.createElement("li");
+        li.classList.add("h3");
+        li.textContent = item;
+        elem.appendChild(li);
+    }
+}
+
+
