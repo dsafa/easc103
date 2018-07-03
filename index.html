@@ -19,39 +19,44 @@
         <h1>Theropods</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4 offset-md-4">
+    <div id="dino-container" class="row mt-5">
+      <div class="col-md-4 offset-md-4 border border-dark">
         <div>
           <h3 id="dinosaur" class="text-center" />
-
         </div>
+        <hr>
         <div class="d-flex justify-content-between">
           <h3>Classification: </h3>
-          <span id="classification" />
+          <h3><span id="classification" class="text-primary"/></h3>
         </div>
         <div class="d-flex justify-content-between">
           <h3>Location:</h3>
-          <span id="location" />
+          <h3><span id="location" class="text-primary"/></h3>
         </div>
         <div class="d-flex justify-content-between">
           <h3>Age:</h3>
-          <span id="age" />
+          <h3><span id="age" class="text-primary"/></h3>
         </div>
         <h3>Notes:</h3>
         <ul id="notes" class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Morbi leo risus</li>
-          <li class="list-group-item">Porta ac consectetur ac</li>
-          <li class="list-group-item">Vestibulum at eros</li>
         </ul>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-md-4 offset-md-4">
-        <button id="next" type="button" class="btn btn-primary">Next</button>
+          <div class="d-flex justify-content-between">
+            <button id="previous" type="button" class="btn btn-primary">Previous</button>
+            <button id="next" type="button" class="btn btn-primary">Next</button>
+          </div>
       </div>
     </div>
+    <div class="row mt-5">
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-4 offset-md-4">
+          Click in border to reveal
+        </div>
+      </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -61,6 +66,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <script src="scripts/theropods.js"></script>
   <script src="scripts/dinos.js"></script>
 </body>
 
