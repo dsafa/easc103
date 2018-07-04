@@ -7,7 +7,8 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
-  <link rel="stylesheet" hred="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <title>Phylogeny</title>
 </head>
@@ -20,7 +21,8 @@
       </div>
     </div>
     <div class="row mt-5">
-      <div id="container" class="col-lg-8 border">
+      <div class="col-lg-8 border">
+        <div id="container"></div>
       </div>
       <div class="col-lg-4">
         <span class="text-center">
@@ -29,15 +31,19 @@
         <hr>
         <div class="row">
           <div class="col">
-            <h2><span id="features"></span></h1>
-            <ul id="features-list"></ul>
+            <h2>
+              <span id="features"></span>
+              </h1>
+              <ul id="features-list"></ul>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <h2><span id="dinosaurs"></span></h3>
-            <ul id="dinosaurs-list">
-            </ul>
+            <h2>
+              <span id="dinosaurs"></span>
+              </h3>
+              <ul id="dinosaurs-list">
+              </ul>
           </div>
         </div>
       </div>
