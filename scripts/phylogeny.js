@@ -118,5 +118,3 @@ function writeList(elem, items) {
         elem.appendChild(li);
     }
 }
-
-

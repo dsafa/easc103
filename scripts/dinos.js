@@ -6,8 +6,32 @@ const notesElem = document.getElementById("notes")
 
 let slideIdx = 0;
 let revealed = false;
-let dinolist = theropods;
-dinolist.sort( () => Math.random() - 0.5)
+let dinolist = setupSlides();
+
+function setupSlides() {
+    let slides = theropods;
+
+    const params = (new URL(document.location)).searchParams;
+    listParam = params.get("list");
+    dinoParam = params.get("dino");
+
+    switch(listParam) {
+        case "theropods":
+            slides = theropods;
+            break;
+        default:
+            break;
+    }
+
+    slides.sort( () => Math.random() - 0.5);
+
+    if (listParam && dinoParam) {
+        slideIdx = slides.findIndex(e => e.id === dinoParam);
+        if (slideIdx === -1) slideIdx = 0;
+    }
+
+    return slides;
+}
 
 function showSlide(index) {
     dino = dinolist[index];

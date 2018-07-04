@@ -1,5 +1,6 @@
 const theropods = [
     {
+        "id": "Dilophosaurus",
         "dinosaur": "Dilophosaurus (two-crested lizard)",
         "classification": "Early Theorpod",
         "location": "North America",
@@ -9,6 +10,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Ceratosaurus",
         "dinosaur": "Ceratosaurus (horned lizard)",
         "classification": "Ceratosaur",
         "location": "North America, Portugal",
@@ -20,6 +22,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Carnotaurus",
         "dinosaur": "Carnotaurus (meat-eating bull)",
         "classification": "Abelisaur",
         "location": "South America",
@@ -30,6 +33,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Megalosaurus",
         "dinosaur": "Megalosaurus (great lizard)",
         "classification": "Megalosaur",
         "location": "England",
@@ -39,6 +43,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Spinosaurus",
         "dinosaur": "Spinosaurus (spine lizard)",
         "classification": "Spinosaur",
         "location": "North Africa",
@@ -49,6 +54,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Baryonyx",
         "dinosaur": "Baryonyx (heavy claw)",
         "classification": "Spinosaur",
         "location": "England",
@@ -61,6 +67,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Suchomimus",
         "dinosaur": "Suchomimus (crocodile mimic)",
         "classification": "Spinosaur",
         "location": "Africa",
@@ -70,6 +77,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Irratator",
         "dinosaur": "Irratator",
         "classification": "Spinosaur",
         "location": "South America",
@@ -78,6 +86,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Allosaurus",
         "dinosaur": "Allosaurus (different lizard)",
         "classification": "Allosaur",
         "location": "North America",
@@ -89,6 +98,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Carcharodontosaurus",
         "dinosaur": "Carcharodontosaurus (sharp tooth lizard)",
         "classification": "Allosaur",
         "location": "Northern Africa",
@@ -98,6 +108,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Giganotosaurus",
         "dinosaur": "Giganotosaurus (giant southern lizard)",
         "classification": "Allosaur",
         "location": "Argentina",
@@ -107,6 +118,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Guanlong",
         "dinosaur": "Guanlong (crowned dragon)",
         "classification": "Tyrannosaur",
         "location": "Northern China",
@@ -117,6 +129,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Dilong",
         "dinosaur": "Dilong (emperor's dragon)",
         "classification": "Tyrannosaur",
         "location": "China",
@@ -126,7 +139,8 @@ const theropods = [
         ]
     },
     {
-        "dinosaur": "Yutyrannus (feathered tyrant",
+        "id": "Yutyrannus",
+        "dinosaur": "Yutyrannus (feathered tyrant)",
         "classification": "Tyrannosaur",
         "location": "China",
         "age": "Early Cretaceous",
@@ -136,7 +150,8 @@ const theropods = [
         ]
     },
     {
-        "dinosaur": "Albertosaurus (alberta lizard",
+        "id": "Albertosaurus",
+        "dinosaur": "Albertosaurus (alberta lizard)",
         "classification": "Tyrannosaur",
         "location": "Western North America",
         "age": "Late Cretaceous, 70 Ma",
@@ -147,6 +162,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Gorgosaurus",
         "dinosaur": "Gorgosaurus (dreadful lizard)",
         "classification": "Tyrannosaur",
         "location": "Western North America",
@@ -157,6 +173,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Daspletosaurus",
         "dinosaur": "Daspletosaurus (frightful lizard)",
         "classification": "Tyrannosaur",
         "location": "Western North America",
@@ -167,6 +184,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Tarbosaurus",
         "dinosaur": "Tarbosaurus (alarming lizard)",
         "classification": "Tyrannosaur",
         "location": "Gobi Desert",
@@ -177,6 +195,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Tyrannosaurus Rex",
         "dinosaur": "Tyrannosaurus Rex (tyrant lizard king)",
         "classification": "Tyrannosaur",
         "location": "North America",
@@ -193,6 +212,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Compsognathus",
         "dinosaur": "Compsognathus (elegant jaw)",
         "classification": "Compsognathid",
         "location": "Europe",
@@ -202,7 +222,8 @@ const theropods = [
         ]
     },
     {
-        "dinosaur": "Sinosauropteryx (chinese lizard wing",
+        "id": "Sinosauropteryx",
+        "dinosaur": "Sinosauropteryx (chinese lizard wing)",
         "classification": "Compsognathis",
         "location": "China (Yixing formation)",
         "age": "Early Cretaceous, 125 Ma",
@@ -213,6 +234,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Struthiomimus",
         "dinosaur": "Struthiomimus (ostrich mimic)",
         "classification": "Ornithomimaosaur",
         "location": "Alberta",
@@ -222,6 +244,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Ornithomimus",
         "dinosaur": "Ornithomimus (bird mimic)",
         "classification": "Ornithomimosaur",
         "location": "North America",
@@ -232,6 +255,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Gallimimus",
         "dinosaur": "Gallimimus (chicken mimic)",
         "classification": "Ornithomimosaur",
         "location": "Mongolia",
@@ -242,6 +266,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Anzu",
         "dinosaur": "Anzu",
         "classification": "Oviraptorosaur",
         "location": "North America",
@@ -252,6 +277,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Caudipteryx",
         "dinosaur": "Caudipteryx (tail feather)",
         "classification": "Oviraptorosaur",
         "location": "China (Yixian formation)",
@@ -262,6 +288,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Citipati",
         "dinosaur": "Citipati (funeral pyre lord)",
         "classification": "Oviraptorosaur",
         "location": "Gobi Desert",
@@ -272,6 +299,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Macroelongatoolithus",
         "dinosaur": "Macroelongatoolithus",
         "classification": "Oviraptorosaur",
         "location": "North America, Asia",
@@ -281,6 +309,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Beibeilong Sinesis",
         "dinosaur": "Beibeilong Sinesis (baby dragon from china)",
         "classification": "Oviraptorosaur",
         "location": "China",
@@ -290,6 +319,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Gigatoraptor",
         "dinosaur": "Gigatoraptor",
         "classification": "Oviraptorosaur",
         "location": "Mongolia",
@@ -301,6 +331,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Microraptor",
         "dinosaur": "Microraptor (small thief)",
         "classification": "Dromaeosaur",
         "location": "China",
@@ -312,6 +343,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Velociraptor",
         "dinosaur": "Velociraptor (swift plunderer)",
         "classification": "Dromaeosaur",
         "location": "Mongolia",
@@ -323,6 +355,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Deinonychus",
         "dinosaur": "Deinonychus (terrible claw)",
         "classification": "Dromaeosaur",
         "location": "North America",
@@ -333,6 +366,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Beipiaosaurus",
         "dinosaur": "Beipiaosaurus (Beipiao lizard)",
         "classification": "Therizinosaur",
         "location": "China (Yixian formation)",
@@ -342,6 +376,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Nothronychus",
         "dinosaur": "Nothronychus (sloth claw)",
         "classification": "Therizinosaur",
         "location": "North America",
@@ -350,6 +385,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Therizinosaurus",
         "dinosaur": "Therizinosaurus",
         "classification": "Therizinosaur",
         "location": "Mongolia",
@@ -361,6 +397,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Mei long",
         "dinosaur": "Mei long (sleeping dragon)",
         "classification": "Troodontids",
         "location": "China",
@@ -370,6 +407,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Troodon",
         "dinosaur": "Troodon (wounding tooth)",
         "classification": "Troodontid",
         "location": "North America",
@@ -381,6 +419,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Arcaeopteryx",
         "dinosaur": "Arcaeopteryx (ancient wing)",
         "classification": "Avialae",
         "location": "Germany",
@@ -393,6 +432,7 @@ const theropods = [
         ]
     },
     {
+        "id": "Confuciusornis ",
         "dinosaur": "Confuciusornis ",
         "classification": "Avialae",
         "location": "China (yixian formation)",
