@@ -399,7 +399,7 @@ const theropods = [
     {
         "id": "Mei long",
         "dinosaur": "Mei long (sleeping dragon)",
-        "classification": "Troodontids",
+        "classification": "Troodontid",
         "location": "China",
         "age": "Early Cretaceous, 125 Ma",
         "notes": [
@@ -432,7 +432,7 @@ const theropods = [
         ]
     },
     {
-        "id": "Confuciusornis ",
+        "id": "Confuciusornis",
         "dinosaur": "Confuciusornis ",
         "classification": "Avialae",
         "location": "China (yixian formation)",
@@ -443,4 +443,131 @@ const theropods = [
             "Small about the size of a pigeon"
         ]
     }
+]
+
+const sauropods = [
+    {
+        "id": "Diplodocus",
+        "dinosaur": "Diplodocus (double beam)",
+        "classification": "Diplodocoids",
+        "location": "North America (Morrison Formation)",
+        "age": "Late Jurassic",
+        "notes": [
+            "Long whip like tail"
+        ]
+    },
+    {
+        "id": "Apatosaurus",
+        "dinosaur": "Apatosaurus (deceptive lizard)",
+        "classification": "Diplodocoids",
+        "location": "North America (Morrison Formation)",
+        "age": "Late Jurassic",
+        "notes": [
+            "More robust diplodocoid"
+        ]
+    },
+    {
+        "id": "Amargasaurus",
+        "dinosaur": "Amargasaurus (la amarga lizard)",
+        "classification": "Diplodocoids",
+        "location": "Argentina",
+        "age": "Early Cretaceous",
+        "notes": [
+            "Small sauropod",
+            "Two rows of spines"
+        ]
+    },
+    {
+        "id": "Nigersaurus",
+        "dinosaur": "Nigersaurus (niger lizard)",
+        "classification": "Diplodocoids",
+        "location": "Africa",
+        "age": "Early Cretaceous",
+        "notes": [
+            "Flat, wide mouth",
+            "Dental battery",
+            "Upright skull, low to the ground"
+        ]
+    },
+    {
+        "id": "Camarasaurus",
+        "dinosaur": "Camarasaurus (chambered lizard)",
+        "classification": "Macronarians",
+        "location": "North America",
+        "age": "Late Jurassic",
+        "notes": [
+            "Blunt face",
+            "Spatulate teeth",
+            "Most abundent, sauropod of its time"
+        ]
+    },
+    {
+        "id": "Brachiosaurus",
+        "dinosaur": "Brachiosaurus (armed lizard)",
+        "classification": "Brachiosaurs",
+        "location": "North America (Morrison Formation)",
+        "age": "Late Jurassic",
+        "notes": [
+            "Longer forelimbs than rear limbs",
+            "Short tail relative to neck"
+        ]
+    },
+    {
+        "id": "Giraffatitan",
+        "dinosaur": "Giraffatitan (giant giraffe)",
+        "classification": "Brachiosaurs",
+        "location": "Africa",
+        "age": "Late Jurassic",
+        "notes": [
+            "Longer forelimbs than rear limbs",
+            "Short tail relative to neck"
+        ]
+    },
+    {
+        "id": "Argentinosaurus",
+        "dinosaur": "Argentinosaurus (argentine lizard)",
+        "classification": "Titanosaurs",
+        "location": "Argentina",
+        "age": "Late Cretaceous",
+        "notes": [
+            "One of the largest land animals of all time",
+            "No manual digits"
+        ]
+    },
+    {
+        "id": "Patagotitan",
+        "dinosaur": "Patagotitan",
+        "classification": "Titanosaurs",
+        "location": "Argentina",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Largest land animal"
+        ]
+    },
+]
+
+const ornithopods = [
+    {
+        "id": "Tenontosaurus",
+        "dinosaur": "Tenontosaurus",
+        "classification": "Iguanodontian",
+        "location": "North America",
+        "age": "Early Cretaceous",
+        "notes": [
+            "Subadult specimens found in association with Deinonychus suggesting a predator-prey relationship"
+        ]
+    },
+    {
+        "id": "Iguanodon",
+        "dinosaur": "Iguanodon (iguana tooth)",
+        "classification": "Iguanodontian",
+        "location": "Europe",
+        "age": "Early Cretaceous",
+        "notes": [
+            "One of the first dinosaurs described scientifically",
+            "Conical thumb spikes for manual digit I",
+            "Prehensile manual digit V",
+            "Hooves for manual digits II, III, IV"
+        ]
+    },
 ]
