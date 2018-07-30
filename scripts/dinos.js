@@ -19,6 +19,18 @@ function setupSlides() {
         case "theropods":
             slides = theropods;
             break;
+        case "sauropods":
+            slides = sauropods;
+            break;
+        case "ornithopods":
+            slides = ornithopods;
+            break;
+        case "thyreophora":
+            slides = thyreophora;
+            break;
+        case "marginocephalia":
+            slides = marginocephalia;
+            break;
         default:
             break;
     }
