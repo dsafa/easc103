@@ -570,4 +570,258 @@ const ornithopods = [
             "Hooves for manual digits II, III, IV"
         ]
     },
+    {
+        "id": "Edmontosaurus",
+        "dinosaur": "Edmontosaurus (Edmonton lizard)",
+        "classification": "Saurlophine",
+        "location": "North America",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Evidence from bonebeds suggest they lived in herds and were migratory",
+            "Dakota dinosaur mummy"
+        ]
+    },
+    {
+        "id": "Lambeosaurus",
+        "dinosaur": "Lambeosaurus (Lambe's lizard)",
+        "classification": "Lambeosaur",
+        "location": "North America",
+        "age": "Late Cretaceous",
+        "notes": [
+        ]
+    },
+    {
+        "id": "Corythosaurus",
+        "dinosaur": "Corythosaurus (helmet lizard)",
+        "classification": "Lambeosaur",
+        "location": "North America",
+        "age": "Late Cretaceous",
+        "notes": [
+        ]
+    },
+    {
+        "id": "Corythosaurus",
+        "dinosaur": "Corythosaurus (helmet lizard)",
+        "classification": "Lambeosaur",
+        "location": "North America",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Large crest"
+        ]
+    },
+    {
+        "id": "Parasaurolophus",
+        "dinosaur": "Parasaurolophus (near crested lizard)",
+        "classification": "Lambeosaur",
+        "location": "North America",
+        "age": "Late Cretaceous, 75 ma",
+        "notes": [
+        ]
+    },
+]
+
+const thyreophora = [
+    {
+        "id": "Scutellosaurus",
+        "dinosaur": "Scutellosaurus (little shielded lizard)",
+        "classification": "Thyreophora",
+        "location": "North america",
+        "age": "Early Jurassic",
+        "notes": [
+            "Has small armoured scutes",
+            "Bipedal"
+        ]
+    },
+    {
+        "id": "Scelidosaurus",
+        "dinosaur": "Scelidosaurus (limb lizard)",
+        "classification": "Thyreophora",
+        "location": "England",
+        "age": "Early Jurassic",
+        "notes": [
+            "Hundreds of scutes",
+            "Quadrupedal"
+        ]
+    },
+    {
+        "id": "Kentrosaurus",
+        "dinosaur": "Kentrosaurus",
+        "classification": "Stegosaur",
+        "location": "Tanzania",
+        "age": "Late Jurassic",
+        "notes": [
+            "Shoulder spikes"
+        ]
+    },
+    {
+        "id": "Stegosaurus",
+        "dinosaur": "Stegosaurus (roof lizard)",
+        "classification": "Stegosaur",
+        "location": "North America",
+        "age": "Late Jurassic",
+        "notes": [
+            "Two rows of offset plates",
+            "Thagomizer",
+            "Allosaur wound found that fits the thagomizer spike",
+            "Sophie the most complete specimen (80%)"
+        ]
+    },
+    {
+        "id": "Edmontia",
+        "dinosaur": "Edmontia",
+        "classification": "Nodosaur",
+        "location": "North America",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Known from 2 species"
+        ]
+    },
+    {
+        "id": "Euoplocephalus",
+        "dinosaur": "Euoplocephalus",
+        "classification": "Ankylosaur",
+        "location": "North America",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Lived alongside Edmontia"
+        ]
+    },
+    {
+        "id": "Ankylosaurus",
+        "dinosaur": "Ankylosaurus (fused lizard)",
+        "classification": "Ankylosaur",
+        "location": "North America (Hell creek formation)",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Largest known ankylosaur"
+        ]
+    },
+    {
+        "id": "Borealopelta markmitchelli",
+        "dinosaur": "Borealopelta markmitchelli",
+        "classification": "Nodosaur",
+        "location": "North America",
+        "age": "Early Cretaceous",
+        "notes": [
+            "The Suncor Nodosaur"
+        ]
+    },
+]
+
+const marginocephalia = [
+    {
+        "id": "Psittacosaurus",
+        "dinosaur": "Psittacosaurus (parrot lizard)",
+        "classification": "Ceratopsian",
+        "location": "China",
+        "age": "Early Cretaceous",
+        "notes": [
+            "Primitive ceratopsian",
+            "Abundent specimens",
+            "Small frill",
+            "Bristles at end of tail",
+            "Ontogeny shows likely to start quadrupedal and switch to bipedal later in life"
+        ]
+    },
+    {
+        "id": "Protoceratops",
+        "dinosaur": "Protoceratops (first horn face)",
+        "classification": "Neoceratopsian",
+        "location": "Mongolia",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Abundent specimens show sexual dimorphism",
+            "Males had larger frill and a bump on the snout"
+        ]
+    },
+    {
+        "id": "Protoceratops",
+        "dinosaur": "Protoceratops (first horn face)",
+        "classification": "Neoceratopsian",
+        "location": "Mongolia",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Abundent specimens show sexual dimorphism",
+            "Males had larger frill and a bump on the snout"
+        ]
+    },
+    {
+        "id": "Centrosaurus",
+        "dinosaur": "Centrosaurus",
+        "classification": "Pachyrhinosaur",
+        "location": "",
+        "age": "",
+        "notes": [
+            "Frill with 4 horns, 2 up, 2 down",
+            "Straight nasal horn"
+        ]
+    },
+    {
+        "id": "Pachyrhinosaurus",
+        "dinosaur": "Pachyrhinosaurus",
+        "classification": "Pachyrhinosaur",
+        "location": "",
+        "age": "",
+        "notes": [
+            "No nasal horn",
+            "Prominent pair of horns on frill",
+        ]
+    },
+    {
+        "id": "Styracosaurus",
+        "dinosaur": "Styracosaurus",
+        "classification": "Pachyrhinosaur",
+        "location": "",
+        "age": "",
+        "notes": [
+            "Straight nasal horn",
+            "Pair of 4 large horns on frill",
+        ]
+    },
+    {
+        "id": "Triceratops",
+        "dinosaur": "Triceratops (three horned face)",
+        "classification": "Ceratopsine",
+        "location": "North America (Hell creek formation)",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Most abundent fossil in hell creek formation",
+            "No horns on frill",
+            "Large eye horns and small nasal horn",
+            "Ontogeny suggests horns start curved backwards but face forward as they grow"
+        ]
+    },
+    {
+        "id": "Torosaurus",
+        "dinosaur": "Torosaurus (perforated lizard)",
+        "classification": "Ceratopsine",
+        "location": "North America (Hell creek formation)",
+        "age": "Late Cretaceous",
+        "notes": [
+            "May have been mature form of triceratops",
+            "Two holes in the frill"
+        ]
+    },
+    {
+        "id": "Kosmoceratops",
+        "dinosaur": "Kosmoceratops",
+        "classification": "Ceratopsine",
+        "location": "",
+        "age": "",
+        "notes": [
+            "Small downward facing horns on frill",
+            "Two eye horns, no nasal horn",
+        ]
+    },
+    {
+        "id": "Pachycephalosaurus",
+        "dinosaur": "Pachycephalosaurus (thick headed lizard)",
+        "classification": "Pachycephalosaur",
+        "location": "North America",
+        "age": "Late Cretaceous",
+        "notes": [
+            "Likely used dome head to headbutt flanks not head to head",
+            "Studies suggest 'Dracorex Hogwartsia' and 'Stygimoloch' are ontogomorphs",
+        ]
+    },
 ]
